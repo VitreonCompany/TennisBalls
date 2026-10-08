@@ -1,0 +1,38 @@
+# Python virtual environment
+.venv/
+venv/
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*credentials*.json
+*service_account*.json
+
+# Python temporary files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Tennis video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Generated outputs
+output/
+
+# Generated tracking and calibration data
+data/*.csv
+data/*.npy
+
+# Operating system files
+.DS_Store
+Thumbs.db
